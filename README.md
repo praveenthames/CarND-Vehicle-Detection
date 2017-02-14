@@ -150,3 +150,8 @@ I defined a new class called Car that contains the attributes - average_centroid
 I used the [Moving Mean algorithm](https://en.wikipedia.org/wiki/Moving_average) to recalculate the heat map in every frame. I include 90% of the last frame heat map and include 10% of the heatmap of the new frame. This way the heatmap is smoothened. I also used an upper and lower threshold values for the heat map. The same Moving Average algorithm is used to recompute the , already detected car's average centroid, width and height in every frame. One difficulty I faced was with fine tuning the parameters for extracting the features - It took more time to manually try different combinations of them. 
  
 If I pursue the project further, I would like to explore even more classifiers which might yield even better results. I would also try to integrate the advanced lane finding logic in here to so as to filter out the false positives which fall outside a lane line. Currently the pipeline might not work when the video is recorded from a car driving on the right most lane. Another situation we have not tested is the two-way roads with traffic coming against the camera when its dark. Another scenario that I would like to test is when there are traffic signs and bill boards containing images like that of a car.
+
+References and Inspirations:
+Project 5 Udacity Live Video Session : https://www.youtube.com/watch?v=P2zwrTM8ueA&feature=youtu.be
+Dalaska : https://github.com/Dalaska/CarND-P5-Vehicle-Detection-and-Tracking
+Slack channels and discussion forums
