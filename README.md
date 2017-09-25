@@ -151,6 +151,7 @@ I used the [Moving Mean algorithm](https://en.wikipedia.org/wiki/Moving_average)
  
 If I pursue the project further, I would like to explore even more classifiers which might yield even better results. I would also try to integrate the advanced lane finding logic in here to so as to filter out the false positives which fall outside a lane line. Another thing I would do is try to use neural networks in the classifier, I believe that would boost the prediction accuracy. One scenario that I would like to test is when there are traffic signs and bill boards containing images like that of a car. Another scenario would be a downhill drive where the road is visible beyond the lower value of y where we crop the image. 
 
+
 References and Inspirations:
 Project 5 Udacity Live Video Session : https://www.youtube.com/watch?v=P2zwrTM8ueA&feature=youtu.be
 Dalaska : https://github.com/Dalaska/CarND-P5-Vehicle-Detection-and-Tracking
